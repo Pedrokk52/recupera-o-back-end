@@ -9,7 +9,7 @@ module.exports = {
         data: {
           nome,
           telefones: {
-            create: telefones, // [{ numero: "123456789", tipo: "celular" }]
+            create: telefones, 
           },
         },
         include: { telefones: true },
@@ -54,8 +54,8 @@ module.exports = {
         data: {
           nome,
           telefones: {
-            deleteMany: {}, // Remove todos os telefones
-            create: telefones, // Cria novamente
+            deleteMany: {}, 
+            create: telefones, 
           },
         },
         include: { telefones: true },
